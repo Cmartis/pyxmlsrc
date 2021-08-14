@@ -1,3 +1,6 @@
+
+#Author: Chris Martis
+
 #!/usr/bin/python3
 
 def GenerateXML(filename):
