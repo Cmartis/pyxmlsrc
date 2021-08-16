@@ -1,0 +1,167 @@
+<?xml version="1.0" ?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.10" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.10 pacs.008.001.10.xsd">
+	<FIToFICstmrCdtTrf>
+		<GrpHdr>
+			<MsgId>584246091808322</MsgId>
+			<CreDtTm>2021-06-23T02:03:03.000Z</CreDtTm>
+			<NbOfTxs>1</NbOfTxs>
+			<SttlmInf>
+				<SttlmMtd>INDA</SttlmMtd>
+				<InstgRmbrsmntAgt>
+					<FinInstnId>
+						<BICFI>SNFSUS33</BICFI>
+					</FinInstnId>
+				</InstgRmbrsmntAgt>
+				<InstgRmbrsmntAgtAcct>
+					<Id>
+						<Othr>
+							<Id>REIMBAGT9921503511217143567720115</Id>
+						</Othr>
+					</Id>
+				</InstgRmbrsmntAgtAcct>
+			</SttlmInf>
+		</GrpHdr>
+		<CdtTrfTxInf>
+			<PmtId>
+				<InstrId>TransactionID-1</InstrId>
+				<EndToEndId>E2E-211163077673787</EndToEndId>
+				<UETR>89fee555-8362-4c41-8a76-58dfa55071b9</UETR>
+			</PmtId>
+			<PmtTpInf>
+				<SvcLvl>
+					<Cd>G001</Cd>
+				</SvcLvl>
+			</PmtTpInf>
+			<IntrBkSttlmAmt Ccy="CNY">754543.17</IntrBkSttlmAmt>
+			<IntrBkSttlmDt>2020-06-23</IntrBkSttlmDt>
+			<SttlmTmIndctn>
+				<DbtDtTm>2021-04-23T17:20:39:000z</DbtDtTm>
+				<CdtDtTm>2021-04-23T23:40:39:000z</CdtDtTm>
+			</SttlmTmIndctn>
+			<SttlmTmReq>
+				<CLSTm>23:40:39z</CLSTm>
+			</SttlmTmReq>
+			<InstdAmt Ccy="AUD">805001110.57</InstdAmt>
+			<XchgRate>0.135</XchgRate>
+			<ChrgBr>CRED</ChrgBr>
+			<ChrgsInf>
+				<Amt Ccy="USD">l0.00</Amt>
+				<Agt>
+					<FinInstnId>
+						<BICFI>BARCGB85</BICFI>
+					</FinInstnId>
+				</Agt>
+			</ChrgsInf>
+			<PrvsInstgAgt1>
+				<FinInstnId>
+					<BICFI>DEUTCA68</BICFI>
+				</FinInstnId>
+			</PrvsInstgAgt1>
+			<PrvsInstgAgt2>
+				<FinInstnId>
+					<BICFI>BARCUS34</BICFI>
+				</FinInstnId>
+			</PrvsInstgAgt2>
+			<PrvsInstgAgt3>
+				<FinInstnId>
+					<BICFI>WFBIGB08</BICFI>
+				</FinInstnId>
+			</PrvsInstgAgt3>
+			<InstgAgt>
+				<FinInstnId>
+					<BICFI>BNPAGB45</BICFI>
+				</FinInstnId>
+			</InstgAgt>
+			<InstgAgt>
+				<FinInstnId>
+					<BICFI>BARCHK45</BICFI>
+				</FinInstnId>
+				<FinInstnId>
+					<BICFI>MHCBCN31</BICFI>
+				</FinInstnId>
+				<FinInstnId>
+					<BICFI>WFBICN53</BICFI>
+				</FinInstnId>
+			</InstgAgt>
+			<IntrmyAgt1>
+				<FinInstnId>
+					<BICFI>BNPABE81</BICFI>
+				</FinInstnId>
+			</IntrmyAgt1>
+			<IntrmyAgt2>
+				<FinInstnId>
+					<BICFI>BOFABE58EIP</BICFI>
+				</FinInstnId>
+			</IntrmyAgt2>
+			<IntrmyAgt3>
+				<FinInstnId>
+					<BICFI>MHCBCA34MVH</BICFI>
+				</FinInstnId>
+			</IntrmyAgt3>
+			<Dbtr>
+				<Nm>Nicole Elliott 45461 Garrett Crossing
+Austinville, NH 57338</Nm>
+				<PstlAdr>
+					<StrtNm>57512 Murray Mountains
+Claudiahaven, MI 26788</StrtNm>
+					<BldgNb>826</BldgNb>
+					<TwnNm>Karenborough</TwnNm>
+					<Ctry>WS</Ctry>
+				</PstlAdr>
+				<Id>
+					<OrgId>
+						<AnyBIC>BNPABE05</AnyBIC>
+					</OrgId>
+				</Id>
+				<PstlAdr>
+					<StrtNm>USNV Simmons
+FPO AP 33191</StrtNm>
+					<BldgNb>486</BldgNb>
+					<TwnNm>Rodneyborough</TwnNm>
+					<Ctry>ZA</Ctry>
+				</PstlAdr>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<IBAN>CA38021299901208670815</IBAN>
+				</Id>
+			</DbtrAcct>
+			<DbtrAgt/>
+			<DbtrAgtAcct>
+				<Id>
+					<Othr>
+						<Id>DBTRAGNTOTHR5383716205366158160759110</Id>
+					</Othr>
+				</Id>
+			</DbtrAgtAcct>
+			<CdtrAgt/>
+			<cdtrAgtAcct>
+				<Id>
+					<Othr>
+						<Id>CRTRAGNT7749982831346472204271009</Id>
+					</Othr>
+				</Id>
+			</cdtrAgtAcct>
+			<Cdtr>
+				<Nm>Erika Mcneil DDS 4660 Lewis Path Apt. 087
+New Benjaminmouth, ND 89531</Nm>
+				<Id>
+					<OrgId>
+						<AnyBIC>BARCCN43</AnyBIC>
+					</OrgId>
+				</Id>
+			</Cdtr>
+			<cdtrAgtAcct>
+				<Id>
+					<Othr>
+						<Id>BENEFICIARY4283250807955524516572290</Id>
+					</Othr>
+				</Id>
+			</cdtrAgtAcct>
+			<RmtInf>
+				<Ustrd/>
+				Unstructured Remittance information-Description of this field may contain 140 characters. Testing for the field len. If is go test is passed.
+			</RmtInf>
+		</CdtTrfTxInf>
+	</FIToFICstmrCdtTrf>
+</Document>

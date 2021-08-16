@@ -1,0 +1,167 @@
+<?xml version="1.0" ?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.10" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.10 pacs.008.001.10.xsd">
+	<FIToFICstmrCdtTrf>
+		<GrpHdr>
+			<MsgId>413373450223965</MsgId>
+			<CreDtTm>2021-06-23T02:03:03.000Z</CreDtTm>
+			<NbOfTxs>1</NbOfTxs>
+			<SttlmInf>
+				<SttlmMtd>INDA</SttlmMtd>
+				<InstgRmbrsmntAgt>
+					<FinInstnId>
+						<BICFI>SNFSUS33</BICFI>
+					</FinInstnId>
+				</InstgRmbrsmntAgt>
+				<InstgRmbrsmntAgtAcct>
+					<Id>
+						<Othr>
+							<Id>REIMBAGT7035600701642766759905369</Id>
+						</Othr>
+					</Id>
+				</InstgRmbrsmntAgtAcct>
+			</SttlmInf>
+		</GrpHdr>
+		<CdtTrfTxInf>
+			<PmtId>
+				<InstrId>TransactionID-1</InstrId>
+				<EndToEndId>E2E-014011876806289</EndToEndId>
+				<UETR>220783e1-feec-4861-bc3a-9ac146e3be0d</UETR>
+			</PmtId>
+			<PmtTpInf>
+				<SvcLvl>
+					<Cd>G001</Cd>
+				</SvcLvl>
+			</PmtTpInf>
+			<IntrBkSttlmAmt Ccy="AUD">979504.90</IntrBkSttlmAmt>
+			<IntrBkSttlmDt>2020-06-23</IntrBkSttlmDt>
+			<SttlmTmIndctn>
+				<DbtDtTm>2021-04-23T17:20:39:000z</DbtDtTm>
+				<CdtDtTm>2021-04-23T23:40:39:000z</CdtDtTm>
+			</SttlmTmIndctn>
+			<SttlmTmReq>
+				<CLSTm>23:40:39z</CLSTm>
+			</SttlmTmReq>
+			<InstdAmt Ccy="CAD">9922418103.19</InstdAmt>
+			<XchgRate>0.135</XchgRate>
+			<ChrgBr>CRED</ChrgBr>
+			<ChrgsInf>
+				<Amt Ccy="USD">l0.00</Amt>
+				<Agt>
+					<FinInstnId>
+						<BICFI>BARCCA80</BICFI>
+					</FinInstnId>
+				</Agt>
+			</ChrgsInf>
+			<PrvsInstgAgt1>
+				<FinInstnId>
+					<BICFI>BOFAUS17</BICFI>
+				</FinInstnId>
+			</PrvsInstgAgt1>
+			<PrvsInstgAgt2>
+				<FinInstnId>
+					<BICFI>MHCBBE13</BICFI>
+				</FinInstnId>
+			</PrvsInstgAgt2>
+			<PrvsInstgAgt3>
+				<FinInstnId>
+					<BICFI>CHASCA56</BICFI>
+				</FinInstnId>
+			</PrvsInstgAgt3>
+			<InstgAgt>
+				<FinInstnId>
+					<BICFI>BNPAJP14</BICFI>
+				</FinInstnId>
+			</InstgAgt>
+			<InstgAgt>
+				<FinInstnId>
+					<BICFI>WFBIJP28</BICFI>
+				</FinInstnId>
+				<FinInstnId>
+					<BICFI>BNPACA78</BICFI>
+				</FinInstnId>
+				<FinInstnId>
+					<BICFI>BNPACN57</BICFI>
+				</FinInstnId>
+			</InstgAgt>
+			<IntrmyAgt1>
+				<FinInstnId>
+					<BICFI>CITIUS13</BICFI>
+				</FinInstnId>
+			</IntrmyAgt1>
+			<IntrmyAgt2>
+				<FinInstnId>
+					<BICFI>BARCGB17EFZ</BICFI>
+				</FinInstnId>
+			</IntrmyAgt2>
+			<IntrmyAgt3>
+				<FinInstnId>
+					<BICFI>MHCBBE20HDI</BICFI>
+				</FinInstnId>
+			</IntrmyAgt3>
+			<Dbtr>
+				<Nm>Curtis Mcmillan 99111 Jennifer Springs Suite 910
+North Peter, FL 31123</Nm>
+				<PstlAdr>
+					<StrtNm>292 Elizabeth Path Apt. 112
+New Tanya, MA 27524</StrtNm>
+					<BldgNb>67590</BldgNb>
+					<TwnNm>South Rebecca</TwnNm>
+					<Ctry>MX</Ctry>
+				</PstlAdr>
+				<Id>
+					<OrgId>
+						<AnyBIC>BNPAUS81</AnyBIC>
+					</OrgId>
+				</Id>
+				<PstlAdr>
+					<StrtNm>95439 Lopez Flats Apt. 642
+New Kylestad, DC 49018</StrtNm>
+					<BldgNb>22642</BldgNb>
+					<TwnNm>Port Sara</TwnNm>
+					<Ctry>BS</Ctry>
+				</PstlAdr>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<IBAN>CN26500417582121849320</IBAN>
+				</Id>
+			</DbtrAcct>
+			<DbtrAgt/>
+			<DbtrAgtAcct>
+				<Id>
+					<Othr>
+						<Id>DBTRAGNTOTHR9255140382523169776704514</Id>
+					</Othr>
+				</Id>
+			</DbtrAgtAcct>
+			<CdtrAgt/>
+			<cdtrAgtAcct>
+				<Id>
+					<Othr>
+						<Id>CRTRAGNT0456644839603029348057306</Id>
+					</Othr>
+				</Id>
+			</cdtrAgtAcct>
+			<Cdtr>
+				<Nm>Holly Jones 742 Jason Green
+South Brandi, CT 05861</Nm>
+				<Id>
+					<OrgId>
+						<AnyBIC>BNPAGB82</AnyBIC>
+					</OrgId>
+				</Id>
+			</Cdtr>
+			<cdtrAgtAcct>
+				<Id>
+					<Othr>
+						<Id>BENEFICIARY8548892896041060784950360</Id>
+					</Othr>
+				</Id>
+			</cdtrAgtAcct>
+			<RmtInf>
+				<Ustrd/>
+				Unstructured Remittance information-Description of this field may contain 140 characters. Testing for the field len. If is go test is passed.
+			</RmtInf>
+		</CdtTrfTxInf>
+	</FIToFICstmrCdtTrf>
+</Document>

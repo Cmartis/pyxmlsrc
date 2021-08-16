@@ -1,0 +1,167 @@
+<?xml version="1.0" ?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.10" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.10 pacs.008.001.10.xsd">
+	<FIToFICstmrCdtTrf>
+		<GrpHdr>
+			<MsgId>675659150191505</MsgId>
+			<CreDtTm>2021-06-23T02:03:03.000Z</CreDtTm>
+			<NbOfTxs>1</NbOfTxs>
+			<SttlmInf>
+				<SttlmMtd>INDA</SttlmMtd>
+				<InstgRmbrsmntAgt>
+					<FinInstnId>
+						<BICFI>SNFSUS33</BICFI>
+					</FinInstnId>
+				</InstgRmbrsmntAgt>
+				<InstgRmbrsmntAgtAcct>
+					<Id>
+						<Othr>
+							<Id>REIMBAGT1928308810495339565292730</Id>
+						</Othr>
+					</Id>
+				</InstgRmbrsmntAgtAcct>
+			</SttlmInf>
+		</GrpHdr>
+		<CdtTrfTxInf>
+			<PmtId>
+				<InstrId>TransactionID-1</InstrId>
+				<EndToEndId>E2E-543881648847223</EndToEndId>
+				<UETR>8e8ff69f-3746-44eb-8392-8fe5336d0e27</UETR>
+			</PmtId>
+			<PmtTpInf>
+				<SvcLvl>
+					<Cd>G001</Cd>
+				</SvcLvl>
+			</PmtTpInf>
+			<IntrBkSttlmAmt Ccy="HKD">4564435885.85</IntrBkSttlmAmt>
+			<IntrBkSttlmDt>2020-06-23</IntrBkSttlmDt>
+			<SttlmTmIndctn>
+				<DbtDtTm>2021-04-23T17:20:39:000z</DbtDtTm>
+				<CdtDtTm>2021-04-23T23:40:39:000z</CdtDtTm>
+			</SttlmTmIndctn>
+			<SttlmTmReq>
+				<CLSTm>23:40:39z</CLSTm>
+			</SttlmTmReq>
+			<InstdAmt Ccy="CNY">0680152980.56</InstdAmt>
+			<XchgRate>0.135</XchgRate>
+			<ChrgBr>CRED</ChrgBr>
+			<ChrgsInf>
+				<Amt Ccy="USD">l0.00</Amt>
+				<Agt>
+					<FinInstnId>
+						<BICFI>BNPACN14</BICFI>
+					</FinInstnId>
+				</Agt>
+			</ChrgsInf>
+			<PrvsInstgAgt1>
+				<FinInstnId>
+					<BICFI>BARCJP59</BICFI>
+				</FinInstnId>
+			</PrvsInstgAgt1>
+			<PrvsInstgAgt2>
+				<FinInstnId>
+					<BICFI>DEUTBE54</BICFI>
+				</FinInstnId>
+			</PrvsInstgAgt2>
+			<PrvsInstgAgt3>
+				<FinInstnId>
+					<BICFI>CHASHK00</BICFI>
+				</FinInstnId>
+			</PrvsInstgAgt3>
+			<InstgAgt>
+				<FinInstnId>
+					<BICFI>DEUTJP03</BICFI>
+				</FinInstnId>
+			</InstgAgt>
+			<InstgAgt>
+				<FinInstnId>
+					<BICFI>WFBICA25</BICFI>
+				</FinInstnId>
+				<FinInstnId>
+					<BICFI>BARCGB58</BICFI>
+				</FinInstnId>
+				<FinInstnId>
+					<BICFI>SOGEGB73</BICFI>
+				</FinInstnId>
+			</InstgAgt>
+			<IntrmyAgt1>
+				<FinInstnId>
+					<BICFI>SOGEUS87</BICFI>
+				</FinInstnId>
+			</IntrmyAgt1>
+			<IntrmyAgt2>
+				<FinInstnId>
+					<BICFI>RBSSCN10ANY</BICFI>
+				</FinInstnId>
+			</IntrmyAgt2>
+			<IntrmyAgt3>
+				<FinInstnId>
+					<BICFI>DEUTHK50VDN</BICFI>
+				</FinInstnId>
+			</IntrmyAgt3>
+			<Dbtr>
+				<Nm>Pam Garcia 75366 Patrick Glen
+South Ashley, SD 88978</Nm>
+				<PstlAdr>
+					<StrtNm>74635 Cassandra Extension Suite 140
+Lake Julie, UT 38075</StrtNm>
+					<BldgNb>6075</BldgNb>
+					<TwnNm>North Kevinmouth</TwnNm>
+					<Ctry>LT</Ctry>
+				</PstlAdr>
+				<Id>
+					<OrgId>
+						<AnyBIC>CHASGB11</AnyBIC>
+					</OrgId>
+				</Id>
+				<PstlAdr>
+					<StrtNm>8136 Ramos Canyon
+Lake Travis, CO 13443</StrtNm>
+					<BldgNb>642</BldgNb>
+					<TwnNm>Arielfurt</TwnNm>
+					<Ctry>VC</Ctry>
+				</PstlAdr>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<IBAN>HK81165890330456520038</IBAN>
+				</Id>
+			</DbtrAcct>
+			<DbtrAgt/>
+			<DbtrAgtAcct>
+				<Id>
+					<Othr>
+						<Id>DBTRAGNTOTHR1226652343805290425890724</Id>
+					</Othr>
+				</Id>
+			</DbtrAgtAcct>
+			<CdtrAgt/>
+			<cdtrAgtAcct>
+				<Id>
+					<Othr>
+						<Id>CRTRAGNT4731573359320551752020649</Id>
+					</Othr>
+				</Id>
+			</cdtrAgtAcct>
+			<Cdtr>
+				<Nm>Jonathan Norman 6801 Anita Green Suite 009
+Lindaview, MD 19368</Nm>
+				<Id>
+					<OrgId>
+						<AnyBIC>MHCBBE94</AnyBIC>
+					</OrgId>
+				</Id>
+			</Cdtr>
+			<cdtrAgtAcct>
+				<Id>
+					<Othr>
+						<Id>BENEFICIARY9664496761633755008670708</Id>
+					</Othr>
+				</Id>
+			</cdtrAgtAcct>
+			<RmtInf>
+				<Ustrd/>
+				Unstructured Remittance information-Description of this field may contain 140 characters. Testing for the field len. If is go test is passed.
+			</RmtInf>
+		</CdtTrfTxInf>
+	</FIToFICstmrCdtTrf>
+</Document>
