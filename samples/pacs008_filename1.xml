@@ -1,10 +1,19 @@
 <?xml version="1.0" ?>
+<<<<<<< HEAD
 <Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.10" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.10 pacs.008.001.10.xsd">
 	<FIToFICstmrCdtTrf>
 		<GrpHdr>
 			<MsgId>584246091808322</MsgId>
 			<CreDtTm>2021-06-23T02:03:03.000Z</CreDtTm>
 			<NbOfTxs>1</NbOfTxs>
+=======
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.10" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:iso:std:iso:20022Ltech:xsd:pacs.008.001.1">
+	<FIToFICstmrCdtTrf>
+		<GrpHdr>
+			<MsgId>608755642875529</MsgId>
+			<CreDtTm>2021-06-23T02:03:03.000Z</CreDtTm>
+			<NoOfTxs>1</NoOfTxs>
+>>>>>>> 1dcfaa51977f0bfaaf7e5886efabf6f90d2ce1af
 			<SttlmInf>
 				<SttlmMtd>INDA</SttlmMtd>
 				<InstgRmbrsmntAgt>
@@ -15,24 +24,58 @@
 				<InstgRmbrsmntAgtAcct>
 					<Id>
 						<Othr>
+<<<<<<< HEAD
 							<Id>REIMBAGT9921503511217143567720115</Id>
 						</Othr>
 					</Id>
 				</InstgRmbrsmntAgtAcct>
+=======
+							<Id>REIMBAGT3752303619874993452637100</Id>
+						</Othr>
+					</Id>
+					<Id>
+						<Othr>
+							<Id>DBTRAGNTOTHR3280728413949974313511235</Id>
+						</Othr>
+					</Id>
+					<Id>
+						<Othr>
+							<Id>CRTRAGNT3499949599057434447180538</Id>
+						</Othr>
+					</Id>
+					<Id>
+						<Othr>
+							<Id>BENEFICIARY0054129830028491690504671</Id>
+						</Othr>
+					</Id>
+				</InstgRmbrsmntAgtAcct>
+				<DbtrAgtAcct/>
+				<cdtrAgtAcct/>
+				<cdtrAgtAcct/>
+>>>>>>> 1dcfaa51977f0bfaaf7e5886efabf6f90d2ce1af
 			</SttlmInf>
 		</GrpHdr>
 		<CdtTrfTxInf>
 			<PmtId>
 				<InstrId>TransactionID-1</InstrId>
+<<<<<<< HEAD
 				<EndToEndId>E2E-211163077673787</EndToEndId>
 				<UETR>89fee555-8362-4c41-8a76-58dfa55071b9</UETR>
+=======
+				<EndToEndId>E2E-270819288144468</EndToEndId>
+				<UETR>f542eda0-66d1-487f-a724-34823eed8ac2</UETR>
+>>>>>>> 1dcfaa51977f0bfaaf7e5886efabf6f90d2ce1af
 			</PmtId>
 			<PmtTpInf>
 				<SvcLvl>
 					<Cd>G001</Cd>
 				</SvcLvl>
 			</PmtTpInf>
+<<<<<<< HEAD
 			<IntrBkSttlmAmt Ccy="CNY">754543.17</IntrBkSttlmAmt>
+=======
+			<IntrBkSttlmAmt Ccy="USD">24444760.47</IntrBkSttlmAmt>
+>>>>>>> 1dcfaa51977f0bfaaf7e5886efabf6f90d2ce1af
 			<IntrBkSttlmDt>2020-06-23</IntrBkSttlmDt>
 			<SttlmTmIndctn>
 				<DbtDtTm>2021-04-23T17:20:39:000z</DbtDtTm>
@@ -41,39 +84,64 @@
 			<SttlmTmReq>
 				<CLSTm>23:40:39z</CLSTm>
 			</SttlmTmReq>
+<<<<<<< HEAD
 			<InstdAmt Ccy="AUD">805001110.57</InstdAmt>
+=======
+			<InstdAmt Ccy="AUD">6576002463.49</InstdAmt>
+>>>>>>> 1dcfaa51977f0bfaaf7e5886efabf6f90d2ce1af
 			<XchgRate>0.135</XchgRate>
 			<ChrgBr>CRED</ChrgBr>
 			<ChrgsInf>
 				<Amt Ccy="USD">l0.00</Amt>
 				<Agt>
 					<FinInstnId>
+<<<<<<< HEAD
 						<BICFI>BARCGB85</BICFI>
+=======
+						<BICFI>CHASHK52</BICFI>
+>>>>>>> 1dcfaa51977f0bfaaf7e5886efabf6f90d2ce1af
 					</FinInstnId>
 				</Agt>
 			</ChrgsInf>
 			<PrvsInstgAgt1>
 				<FinInstnId>
+<<<<<<< HEAD
 					<BICFI>DEUTCA68</BICFI>
+=======
+					<BICFI>BOFACA73</BICFI>
+>>>>>>> 1dcfaa51977f0bfaaf7e5886efabf6f90d2ce1af
 				</FinInstnId>
 			</PrvsInstgAgt1>
 			<PrvsInstgAgt2>
 				<FinInstnId>
+<<<<<<< HEAD
 					<BICFI>BARCUS34</BICFI>
+=======
+					<BICFI>CITIBE70</BICFI>
+>>>>>>> 1dcfaa51977f0bfaaf7e5886efabf6f90d2ce1af
 				</FinInstnId>
 			</PrvsInstgAgt2>
 			<PrvsInstgAgt3>
 				<FinInstnId>
+<<<<<<< HEAD
 					<BICFI>WFBIGB08</BICFI>
+=======
+					<BICFI>DEUTCN41</BICFI>
+>>>>>>> 1dcfaa51977f0bfaaf7e5886efabf6f90d2ce1af
 				</FinInstnId>
 			</PrvsInstgAgt3>
 			<InstgAgt>
 				<FinInstnId>
+<<<<<<< HEAD
 					<BICFI>BNPAGB45</BICFI>
+=======
+					<BICFI>RBSSBE58</BICFI>
+>>>>>>> 1dcfaa51977f0bfaaf7e5886efabf6f90d2ce1af
 				</FinInstnId>
 			</InstgAgt>
 			<InstgAgt>
 				<FinInstnId>
+<<<<<<< HEAD
 					<BICFI>BARCHK45</BICFI>
 				</FinInstnId>
 				<FinInstnId>
@@ -81,20 +149,38 @@
 				</FinInstnId>
 				<FinInstnId>
 					<BICFI>WFBICN53</BICFI>
+=======
+					<BICFI>DEUTJP61</BICFI>
+				</FinInstnId>
+				<FinInstnId>
+					<BICFI>SOGEBE54</BICFI>
+				</FinInstnId>
+				<FinInstnId>
+					<BICFI>BOFAGB12</BICFI>
+>>>>>>> 1dcfaa51977f0bfaaf7e5886efabf6f90d2ce1af
 				</FinInstnId>
 			</InstgAgt>
 			<IntrmyAgt1>
 				<FinInstnId>
+<<<<<<< HEAD
 					<BICFI>BNPABE81</BICFI>
+=======
+					<BICFI>SOGEGB31</BICFI>
+>>>>>>> 1dcfaa51977f0bfaaf7e5886efabf6f90d2ce1af
 				</FinInstnId>
 			</IntrmyAgt1>
 			<IntrmyAgt2>
 				<FinInstnId>
+<<<<<<< HEAD
 					<BICFI>BOFABE58EIP</BICFI>
+=======
+					<BICFI>BOFACN43SFY</BICFI>
+>>>>>>> 1dcfaa51977f0bfaaf7e5886efabf6f90d2ce1af
 				</FinInstnId>
 			</IntrmyAgt2>
 			<IntrmyAgt3>
 				<FinInstnId>
+<<<<<<< HEAD
 					<BICFI>MHCBCA34MVH</BICFI>
 				</FinInstnId>
 			</IntrmyAgt3>
@@ -119,10 +205,34 @@ FPO AP 33191</StrtNm>
 					<BldgNb>486</BldgNb>
 					<TwnNm>Rodneyborough</TwnNm>
 					<Ctry>ZA</Ctry>
+=======
+					<BICFI>MHCBCN83UWB</BICFI>
+				</FinInstnId>
+			</IntrmyAgt3>
+			<Dbtr>
+				<Nm>Debtor Name corporation - ABC LLC, Washington D.C, Columbia - This is 140 text field tested for the field length. If is goes test is passed.</Nm>
+				<PstlAdr>
+					<StrtNm>MainLane</StrtNm>
+					<BldgNb>4</BldgNb>
+					<TwnNm>Ottowa</TwnNm>
+					<Ctry>CA</Ctry>
+				</PstlAdr>
+				<Id>
+					<OrgId>
+						<AnyBIC>WFBIGB66</AnyBIC>
+					</OrgId>
+				</Id>
+				<PstlAdr>
+					<StrtNm>SomeStreet</StrtNm>
+					<BldgNb>65</BldgNb>
+					<TwnNm>Manhattan</TwnNm>
+					<Ctry>US</Ctry>
+>>>>>>> 1dcfaa51977f0bfaaf7e5886efabf6f90d2ce1af
 				</PstlAdr>
 			</Dbtr>
 			<DbtrAcct>
 				<Id>
+<<<<<<< HEAD
 					<IBAN>CA38021299901208670815</IBAN>
 				</Id>
 			</DbtrAcct>
@@ -158,6 +268,21 @@ New Benjaminmouth, ND 89531</Nm>
 					</Othr>
 				</Id>
 			</cdtrAgtAcct>
+=======
+					<IBAN>CN74698879198836154610</IBAN>
+				</Id>
+			</DbtrAcct>
+			<DbtrAgt/>
+			<CdtrAgt/>
+			<Cdtr>
+				<Nm>Creditor Name corporation - ABC LLC, Washington D.C, Columbia - This is 140 text field tested for the field length. If is goes test is passed.</Nm>
+				<Id>
+					<OrgId>
+						<AnyBIC>CHASUS63</AnyBIC>
+					</OrgId>
+				</Id>
+			</Cdtr>
+>>>>>>> 1dcfaa51977f0bfaaf7e5886efabf6f90d2ce1af
 			<RmtInf>
 				<Ustrd/>
 				Unstructured Remittance information-Description of this field may contain 140 characters. Testing for the field len. If is go test is passed.

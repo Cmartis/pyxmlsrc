@@ -16,7 +16,11 @@ def GenerateXML(filename):
     fake = Faker()
     xmlns = 'urn:iso:std:iso:20022:tech:xsd:pacs.008.001.10'
     xmlns_xsi =  'http://www.w3.org/2001/XMLSchema-instance'
+<<<<<<< HEAD
     xsi_schemaLocation =  'urn:iso:std:iso:20022:tech:xsd:pacs.008.001.10 pacs.008.001.10.xsd'
+=======
+    xsi_schemaLocation =  'urn:iso:std:iso:20022Ltech:xsd:pacs.008.001.1'
+>>>>>>> 1dcfaa51977f0bfaaf7e5886efabf6f90d2ce1af
     root = minidom.Document()
 
     doc = root.createElement('Document')
@@ -28,7 +32,10 @@ def GenerateXML(filename):
     fi2fi = root.createElement('FIToFICstmrCdtTrf')
     doc.appendChild(fi2fi)
 
+<<<<<<< HEAD
     #----start  Grphdr
+=======
+>>>>>>> 1dcfaa51977f0bfaaf7e5886efabf6f90d2ce1af
     grphdr = root.createElement('GrpHdr')
     fi2fi.appendChild(grphdr)
 
@@ -44,7 +51,11 @@ def GenerateXML(filename):
     credtm.appendChild(credtmVal)
 
 
+<<<<<<< HEAD
     nboftxs = root.createElement('NbOfTxs')
+=======
+    nboftxs = root.createElement('NoOfTxs')
+>>>>>>> 1dcfaa51977f0bfaaf7e5886efabf6f90d2ce1af
     grphdr.appendChild(nboftxs)
     nboftxsVal = root.createTextNode('1')
     nboftxs.appendChild(nboftxsVal)
@@ -84,6 +95,7 @@ def GenerateXML(filename):
     #msgIdVal = root.createTextNode(str(randomizer.randomizer(digits, 15)))
     id.appendChild(idVal)
 
+<<<<<<< HEAD
     #----finish Grphdr
     #----start Cdtrftxinf
 
@@ -91,6 +103,11 @@ def GenerateXML(filename):
     fi2fi.appendChild(cdttrftxinf)
 
     #----start PmtId
+=======
+    cdttrftxinf = root.createElement('CdtTrfTxInf')
+    fi2fi.appendChild(cdttrftxinf)
+
+>>>>>>> 1dcfaa51977f0bfaaf7e5886efabf6f90d2ce1af
     pmtid = root.createElement('PmtId')
     cdttrftxinf.appendChild(pmtid)
 
@@ -112,10 +129,13 @@ def GenerateXML(filename):
     uetrVal = root.createTextNode(str(uuid.uuid4()))
     uetr.appendChild(uetrVal)
 
+<<<<<<< HEAD
 
     #----finish  PmtId
     #----start  pmtpinf
     
+=======
+>>>>>>> 1dcfaa51977f0bfaaf7e5886efabf6f90d2ce1af
     pmttpinf = root.createElement('PmtTpInf')
     cdttrftxinf.appendChild(pmttpinf)
     svclvl = root.createElement('SvcLvl')
@@ -125,9 +145,12 @@ def GenerateXML(filename):
     cdVal = root.createTextNode('G001')
     cd.appendChild(cdVal)
 
+<<<<<<< HEAD
 
     #----finish  pmtpinf
 
+=======
+>>>>>>> 1dcfaa51977f0bfaaf7e5886efabf6f90d2ce1af
     intrbksttlmamt = root.createElement('IntrBkSttlmAmt')
     #intrbksttlmamt.setAttribute('Ccy', 'USD')
     intrbksttlmamt.setAttribute('Ccy', str(random.choice(['USD', 'EUR', 'AUD', 'CAD', 'HKD', 'CNY'])))
@@ -141,8 +164,11 @@ def GenerateXML(filename):
     cdttrftxinf.appendChild(intrbksttlmdt)
     intrbksttlmdtVal = root.createTextNode('2020-06-23')
     intrbksttlmdt.appendChild(intrbksttlmdtVal)
+<<<<<<< HEAD
    
    #----start SttlmTmIndctn
+=======
+>>>>>>> 1dcfaa51977f0bfaaf7e5886efabf6f90d2ce1af
 
     sttlmtmindctn = root.createElement('SttlmTmIndctn')
     cdttrftxinf.appendChild(sttlmtmindctn)
@@ -293,8 +319,11 @@ def GenerateXML(filename):
                                                                                                 + str(randomizer.randomizer(digits, 2) + str(randomizer.randomizer(string.ascii_uppercase,3)))))
     bicfi.appendChild(bicfiVal)
 
+<<<<<<< HEAD
     #---- start dbtr
 
+=======
+>>>>>>> 1dcfaa51977f0bfaaf7e5886efabf6f90d2ce1af
     dbtr = root.createElement('Dbtr')
     cdttrftxinf.appendChild(dbtr)
     nm = root.createElement('Nm')
@@ -337,9 +366,12 @@ def GenerateXML(filename):
     anybicVal = root.createTextNode(str(random.choice(['BOFA', 'CHAS', 'CITI', 'WFBI', 'BARC','RBSS', 'BNPA', 'SOGE','DEUT','MHCB']) + str(random.choice(['US', 'BE', 'CA', 'CN', 'HK', 'JP', 'GB'])) + str(randomizer.randomizer(digits, 2))))
     anybic.appendChild(anybicVal)
 
+<<<<<<< HEAD
     #---- finish dbtr
     #---- start dbtracct
 
+=======
+>>>>>>> 1dcfaa51977f0bfaaf7e5886efabf6f90d2ce1af
     dbtracct = root.createElement('DbtrAcct')
     cdttrftxinf.appendChild(dbtracct)
     id = root.createElement('Id')
@@ -350,9 +382,12 @@ def GenerateXML(filename):
     ibanVal = root.createTextNode(str(random.choice(['US', 'BE', 'CA', 'CN', 'HK', 'JP', 'GB'])) + str(randomizer.randomizer(digits, 20)))
     iban.appendChild(ibanVal)
 
+<<<<<<< HEAD
     #---- finish dbtracct
     #---- start dbtragt
 
+=======
+>>>>>>> 1dcfaa51977f0bfaaf7e5886efabf6f90d2ce1af
     dbtragt = root.createElement('DbtrAgt')
     cdttrftxinf.appendChild(dbtragt)
     fininstnid = root.createElement('FinInstnId')
@@ -363,6 +398,7 @@ def GenerateXML(filename):
     bicfiVal = root.createTextNode(str(random.choice(['BOFA', 'CHAS', 'CITI', 'WFBI', 'BARC','RBSS', 'BNPA', 'SOGE','DEUT','MHCB']) + str(random.choice(['US', 'BE', 'CA', 'CN', 'HK', 'JP', 'GB'])) + str(randomizer.randomizer(digits, 2))))
     bicfi.appendChild(bicfiVal)
 
+<<<<<<< HEAD
     #---- finish dbtragt
     #---- start dbtragtacct
 
@@ -371,6 +407,13 @@ def GenerateXML(filename):
 
     id = root.createElement('Id')
     dbtragtacct.appendChild(id)
+=======
+    dbtragtacct = root.createElement('DbtrAgtAcct')
+    sttlminf.appendChild(dbtragtacct)
+
+    id = root.createElement('Id')
+    instgrmbrsmntagtacct.appendChild(id)
+>>>>>>> 1dcfaa51977f0bfaaf7e5886efabf6f90d2ce1af
 
     othr = root.createElement('Othr')
     id.appendChild(othr)
@@ -380,9 +423,12 @@ def GenerateXML(filename):
     idVal = root.createTextNode("DBTRAGNTOTHR" + str(randomizer.randomizer(digits, 25)))
     id.appendChild(idVal)
 
+<<<<<<< HEAD
     #---- finish dbtragtacct
     #---- start cdtragt
 
+=======
+>>>>>>> 1dcfaa51977f0bfaaf7e5886efabf6f90d2ce1af
     cdtragt = root.createElement('CdtrAgt')
     cdttrftxinf.appendChild(cdtragt)
     fininstnid = root.createElement('FinInstnId')
@@ -393,6 +439,7 @@ def GenerateXML(filename):
     bicfiVal = root.createTextNode(str(random.choice(['BOFA', 'CHAS', 'CITI', 'WFBI', 'BARC','RBSS', 'BNPA', 'SOGE','DEUT','MHCB']) + str(random.choice(['US', 'BE', 'CA', 'CN', 'HK', 'JP', 'GB'])) + str(randomizer.randomizer(digits, 2))))
     bicfi.appendChild(bicfiVal)
 
+<<<<<<< HEAD
     #---- finish cdtragt
     #---- start cdtragtacct
 
@@ -401,6 +448,13 @@ def GenerateXML(filename):
 
     id = root.createElement('Id')
     cdtragtacct.appendChild(id)
+=======
+    cdtragtacct = root.createElement('cdtrAgtAcct')
+    sttlminf.appendChild(cdtragtacct)
+
+    id = root.createElement('Id')
+    instgrmbrsmntagtacct.appendChild(id)
+>>>>>>> 1dcfaa51977f0bfaaf7e5886efabf6f90d2ce1af
 
     othr = root.createElement('Othr')
     id.appendChild(othr)
@@ -410,10 +464,13 @@ def GenerateXML(filename):
     idVal = root.createTextNode("CRTRAGNT" + str(randomizer.randomizer(digits, 25)))
     id.appendChild(idVal)
 
+<<<<<<< HEAD
 
     #---- finish cdtragtacct
     #---- start cdtr
 
+=======
+>>>>>>> 1dcfaa51977f0bfaaf7e5886efabf6f90d2ce1af
     cdtr = root.createElement('Cdtr')
     cdttrftxinf.appendChild(cdtr)
     nm = root.createElement('Nm')
@@ -455,6 +512,7 @@ def GenerateXML(filename):
     anybicVal = root.createTextNode(str(random.choice(['BOFA', 'CHAS', 'CITI', 'WFBI', 'BARC','RBSS', 'BNPA', 'SOGE','DEUT','MHCB']) + str(random.choice(['US', 'BE', 'CA', 'CN', 'HK', 'JP', 'GB'])) + str(randomizer.randomizer(digits, 2))))
     anybic.appendChild(anybicVal)
 
+<<<<<<< HEAD
     #---- finish cdtr
     #---- start cdtrAgtAcct
     cdtragtacct = root.createElement('cdtrAgtAcct')
@@ -462,6 +520,13 @@ def GenerateXML(filename):
 
     id = root.createElement('Id')
     cdtragtacct.appendChild(id)
+=======
+    cdtragtacct = root.createElement('cdtrAgtAcct')
+    sttlminf.appendChild(cdtragtacct)
+
+    id = root.createElement('Id')
+    instgrmbrsmntagtacct.appendChild(id)
+>>>>>>> 1dcfaa51977f0bfaaf7e5886efabf6f90d2ce1af
 
     othr = root.createElement('Othr')
     id.appendChild(othr)
@@ -471,9 +536,12 @@ def GenerateXML(filename):
     idVal = root.createTextNode("BENEFICIARY" + str(randomizer.randomizer(digits, 25)))
     id.appendChild(idVal)
 
+<<<<<<< HEAD
     #---- finish cdtrAgtAcct
     #---- start RmtInf
 
+=======
+>>>>>>> 1dcfaa51977f0bfaaf7e5886efabf6f90d2ce1af
     rmtinf = root.createElement('RmtInf')
     cdttrftxinf.appendChild(rmtinf)
     ustrd = root.createElement('Ustrd')
@@ -481,7 +549,10 @@ def GenerateXML(filename):
     ustrdVal = root.createTextNode('Unstructured Remittance information-Description of this field may contain 140 characters. Testing for the field len. If is go test is passed.')
     rmtinf.appendChild(ustrdVal)
 
+<<<<<<< HEAD
     #---- finish RmtInf
+=======
+>>>>>>> 1dcfaa51977f0bfaaf7e5886efabf6f90d2ce1af
     xml_str = root.toprettyxml(indent ="\t")
 
     #save_path_file = "gfg.xml"
