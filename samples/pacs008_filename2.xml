@@ -1,0 +1,164 @@
+<?xml version="1.0" ?>
+<!--Pacs008.001 generated on2021-08-16with version 0.1 for testing only-->
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.10" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.10 pacs.008.001.10.xsd">
+	<FIToFICstmrCdtTrf>
+		<GrpHdr>
+			<MsgId>296894727046523</MsgId>
+			<CreDtTm>2021-06-23T02:03:03.000Z</CreDtTm>
+			<NbOfTxs>1</NbOfTxs>
+			<SttlmInf>
+				<SttlmMtd>INDA</SttlmMtd>
+				<InstgRmbrsmntAgt>
+					<FinInstnId>
+						<BICFI>SNFSUS33</BICFI>
+					</FinInstnId>
+				</InstgRmbrsmntAgt>
+				<InstgRmbrsmntAgtAcct>
+					<Id>
+						<Othr>
+							<Id>REIMBAGT3954348466872611311927619</Id>
+						</Othr>
+					</Id>
+				</InstgRmbrsmntAgtAcct>
+			</SttlmInf>
+		</GrpHdr>
+		<CdtTrfTxInf>
+			<PmtId>
+				<InstrId>TransactionID-1</InstrId>
+				<EndToEndId>E2E-846442423742393</EndToEndId>
+				<UETR>004e1aeb-91c4-4d11-b780-a52078c2cb48</UETR>
+			</PmtId>
+			<PmtTpInf>
+				<SvcLvl>
+					<Cd>G001</Cd>
+				</SvcLvl>
+			</PmtTpInf>
+			<IntrBkSttlmAmt Ccy="USD">623451.63</IntrBkSttlmAmt>
+			<IntrBkSttlmDt>2020-06-23</IntrBkSttlmDt>
+			<SttlmTmIndctn>
+				<DbtDtTm>2021-04-23T17:20:39.000Z</DbtDtTm>
+				<CdtDtTm>2021-04-23T23:40:39.000Z</CdtDtTm>
+			</SttlmTmIndctn>
+			<SttlmTmReq>
+				<CLSTm>23:40:39Z</CLSTm>
+			</SttlmTmReq>
+			<InstdAmt Ccy="EUR">039442748.56</InstdAmt>
+			<XchgRate>0.135</XchgRate>
+			<ChrgBr>CRED</ChrgBr>
+			<ChrgsInf>
+				<Amt Ccy="USD">10.00</Amt>
+				<Agt>
+					<FinInstnId>
+						<BICFI>CHASHK32</BICFI>
+					</FinInstnId>
+				</Agt>
+			</ChrgsInf>
+			<PrvsInstgAgt1>
+				<FinInstnId>
+					<BICFI>CITICA96</BICFI>
+				</FinInstnId>
+			</PrvsInstgAgt1>
+			<PrvsInstgAgt2>
+				<FinInstnId>
+					<BICFI>SOGECN96</BICFI>
+				</FinInstnId>
+			</PrvsInstgAgt2>
+			<PrvsInstgAgt3>
+				<FinInstnId>
+					<BICFI>MHCBCN67</BICFI>
+				</FinInstnId>
+			</PrvsInstgAgt3>
+			<InstgAgt>
+				<FinInstnId>
+					<BICFI>BNPAJP89</BICFI>
+				</FinInstnId>
+			</InstgAgt>
+			<IntrmyAgt1>
+				<FinInstnId>
+					<BICFI>BNPAJP40</BICFI>
+				</FinInstnId>
+			</IntrmyAgt1>
+			<IntrmyAgt2>
+				<FinInstnId>
+					<BICFI>BNPAUS75IKM</BICFI>
+				</FinInstnId>
+			</IntrmyAgt2>
+			<IntrmyAgt3>
+				<FinInstnId>
+					<BICFI>BOFAHK84RUK</BICFI>
+				</FinInstnId>
+			</IntrmyAgt3>
+			<Dbtr>
+				<Nm>Jeanette Schneider PSC 0099, Box 3234
+APO AE 26304</Nm>
+				<PstlAdr>
+					<StrtNm>5571 Amanda Crescent Apt. 769
+Richardside, OH 36131</StrtNm>
+					<BldgNb>12962</BldgNb>
+					<TwnNm>Patriciamouth</TwnNm>
+					<Ctry>PE</Ctry>
+				</PstlAdr>
+				<Id>
+					<OrgId>
+						<AnyBIC>BNPABE75</AnyBIC>
+					</OrgId>
+				</Id>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<IBAN>HK32007250490509481783</IBAN>
+				</Id>
+			</DbtrAcct>
+			<DbtrAgt>
+				<FinInstnId>
+					<BICFI>SOGEUS94</BICFI>
+				</FinInstnId>
+			</DbtrAgt>
+			<DbtrAgtAcct>
+				<Id>
+					<Othr>
+						<Id>DBTRAGNTOTHR5377909745211915823199</Id>
+					</Othr>
+				</Id>
+			</DbtrAgtAcct>
+			<CdtrAgt>
+				<FinInstnId>
+					<BICFI>SOGEHK95</BICFI>
+				</FinInstnId>
+			</CdtrAgt>
+			<CdtrAgtAcct>
+				<Id>
+					<Othr>
+						<Id>CRTRAGNT7822395138765645311390522</Id>
+					</Othr>
+				</Id>
+			</CdtrAgtAcct>
+			<Cdtr>
+				<Nm>Erik Gutierrez 847 Tristan Hills
+Petersonburgh, SC 38651</Nm>
+				<PstlAdr>
+					<StrtNm>PSC 6611, Box 7027
+APO AP 88196</StrtNm>
+					<BldgNb>29565</BldgNb>
+					<TwnNm>West Rodneyfort</TwnNm>
+					<Ctry>CY</Ctry>
+				</PstlAdr>
+				<Id>
+					<OrgId>
+						<AnyBIC>MHCBHK48</AnyBIC>
+					</OrgId>
+				</Id>
+			</Cdtr>
+			<CdtrAcct>
+				<Id>
+					<Othr>
+						<Id>BENEFICIARY5074487755514395144536</Id>
+					</Othr>
+				</Id>
+			</CdtrAcct>
+			<RmtInf>
+				<Ustrd>Unstructured Remittance information-Description of this field may contain 140 characters. Testing for the field len.If is go test is passed.</Ustrd>
+			</RmtInf>
+		</CdtTrfTxInf>
+	</FIToFICstmrCdtTrf>
+</Document>

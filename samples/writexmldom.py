@@ -27,7 +27,7 @@ def GenerateXML(filename):
 
     today = date.today()
 
-    commentNode = root.createComment('Pacs008.001 generated on ' + str(today) + " with version 0.1 for testing only")
+    commentNode = root.createComment('Pacs008.001 generated on' + str(today) + "with version 0.1 for testing only")
     root.appendChild(commentNode)
 
     doc = root.createElement('Document')

@@ -1,0 +1,164 @@
+<?xml version="1.0" ?>
+<!--Pacs008.001 generated on2021-08-16with version 0.1 for testing only-->
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.10" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.10 pacs.008.001.10.xsd">
+	<FIToFICstmrCdtTrf>
+		<GrpHdr>
+			<MsgId>246292043850728</MsgId>
+			<CreDtTm>2021-06-23T02:03:03.000Z</CreDtTm>
+			<NbOfTxs>1</NbOfTxs>
+			<SttlmInf>
+				<SttlmMtd>INDA</SttlmMtd>
+				<InstgRmbrsmntAgt>
+					<FinInstnId>
+						<BICFI>SNFSUS33</BICFI>
+					</FinInstnId>
+				</InstgRmbrsmntAgt>
+				<InstgRmbrsmntAgtAcct>
+					<Id>
+						<Othr>
+							<Id>REIMBAGT2948764537683380638083957</Id>
+						</Othr>
+					</Id>
+				</InstgRmbrsmntAgtAcct>
+			</SttlmInf>
+		</GrpHdr>
+		<CdtTrfTxInf>
+			<PmtId>
+				<InstrId>TransactionID-1</InstrId>
+				<EndToEndId>E2E-043021122133999</EndToEndId>
+				<UETR>26f970bd-9281-4656-8ce8-b225aaa3df45</UETR>
+			</PmtId>
+			<PmtTpInf>
+				<SvcLvl>
+					<Cd>G001</Cd>
+				</SvcLvl>
+			</PmtTpInf>
+			<IntrBkSttlmAmt Ccy="AUD">97048.89</IntrBkSttlmAmt>
+			<IntrBkSttlmDt>2020-06-23</IntrBkSttlmDt>
+			<SttlmTmIndctn>
+				<DbtDtTm>2021-04-23T17:20:39.000Z</DbtDtTm>
+				<CdtDtTm>2021-04-23T23:40:39.000Z</CdtDtTm>
+			</SttlmTmIndctn>
+			<SttlmTmReq>
+				<CLSTm>23:40:39Z</CLSTm>
+			</SttlmTmReq>
+			<InstdAmt Ccy="HKD">151979.15</InstdAmt>
+			<XchgRate>0.135</XchgRate>
+			<ChrgBr>CRED</ChrgBr>
+			<ChrgsInf>
+				<Amt Ccy="USD">10.00</Amt>
+				<Agt>
+					<FinInstnId>
+						<BICFI>BARCGB82</BICFI>
+					</FinInstnId>
+				</Agt>
+			</ChrgsInf>
+			<PrvsInstgAgt1>
+				<FinInstnId>
+					<BICFI>BARCCN33</BICFI>
+				</FinInstnId>
+			</PrvsInstgAgt1>
+			<PrvsInstgAgt2>
+				<FinInstnId>
+					<BICFI>BNPAGB38</BICFI>
+				</FinInstnId>
+			</PrvsInstgAgt2>
+			<PrvsInstgAgt3>
+				<FinInstnId>
+					<BICFI>MHCBGB43</BICFI>
+				</FinInstnId>
+			</PrvsInstgAgt3>
+			<InstgAgt>
+				<FinInstnId>
+					<BICFI>BOFAGB05</BICFI>
+				</FinInstnId>
+			</InstgAgt>
+			<IntrmyAgt1>
+				<FinInstnId>
+					<BICFI>BNPACN58</BICFI>
+				</FinInstnId>
+			</IntrmyAgt1>
+			<IntrmyAgt2>
+				<FinInstnId>
+					<BICFI>DEUTHK44RWK</BICFI>
+				</FinInstnId>
+			</IntrmyAgt2>
+			<IntrmyAgt3>
+				<FinInstnId>
+					<BICFI>SOGECN16RRD</BICFI>
+				</FinInstnId>
+			</IntrmyAgt3>
+			<Dbtr>
+				<Nm>Mr. Seth Scott PhD 854 Thompson Port Suite 279
+Englishport, LA 51430</Nm>
+				<PstlAdr>
+					<StrtNm>56818 William Hills
+Cristinaberg, MN 79287</StrtNm>
+					<BldgNb>634</BldgNb>
+					<TwnNm>Clarkview</TwnNm>
+					<Ctry>TN</Ctry>
+				</PstlAdr>
+				<Id>
+					<OrgId>
+						<AnyBIC>MHCBHK45</AnyBIC>
+					</OrgId>
+				</Id>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<IBAN>GB76929888086891270450</IBAN>
+				</Id>
+			</DbtrAcct>
+			<DbtrAgt>
+				<FinInstnId>
+					<BICFI>RBSSUS74</BICFI>
+				</FinInstnId>
+			</DbtrAgt>
+			<DbtrAgtAcct>
+				<Id>
+					<Othr>
+						<Id>DBTRAGNTOTHR3674014797763193307064</Id>
+					</Othr>
+				</Id>
+			</DbtrAgtAcct>
+			<CdtrAgt>
+				<FinInstnId>
+					<BICFI>DEUTCN96</BICFI>
+				</FinInstnId>
+			</CdtrAgt>
+			<CdtrAgtAcct>
+				<Id>
+					<Othr>
+						<Id>CRTRAGNT5015525918439049523478593</Id>
+					</Othr>
+				</Id>
+			</CdtrAgtAcct>
+			<Cdtr>
+				<Nm>Steven Mitchell 0255 Petty Estates
+Michelehaven, KY 65632</Nm>
+				<PstlAdr>
+					<StrtNm>4495 Jacqueline Forges
+Manningside, PA 83642</StrtNm>
+					<BldgNb>077</BldgNb>
+					<TwnNm>South Aaronstad</TwnNm>
+					<Ctry>SL</Ctry>
+				</PstlAdr>
+				<Id>
+					<OrgId>
+						<AnyBIC>SOGEUS98</AnyBIC>
+					</OrgId>
+				</Id>
+			</Cdtr>
+			<CdtrAcct>
+				<Id>
+					<Othr>
+						<Id>BENEFICIARY7563777033906736118948</Id>
+					</Othr>
+				</Id>
+			</CdtrAcct>
+			<RmtInf>
+				<Ustrd>Unstructured Remittance information-Description of this field may contain 140 characters. Testing for the field len.If is go test is passed.</Ustrd>
+			</RmtInf>
+		</CdtTrfTxInf>
+	</FIToFICstmrCdtTrf>
+</Document>
